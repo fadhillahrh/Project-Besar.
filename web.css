@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.Medsos{
+	height: 100px;
+	width: 100%;
+	background-color: #59b300;
+}
+.Medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 50px;
+}
+
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 100px 0px;
+	color: #1a3300;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #88cc00;
+	color: #fff;
+}
+.active{
+	background-color: #85C1E9;
+	color: #fff;
+}
+.banner{
+	height: 30vh;
+	background-color: #82ccdd;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #778beb;
+}
+.about p{
+	color: #2f3542;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: ##70a1ff;
+}
+footer{
+	padding: 30px 0;
+	background-color: #546de5;
+	color: #2f3542;
+	text-align: center;
+}
